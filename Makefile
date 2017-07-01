@@ -1,2 +1,3 @@
 main: main.cpp
-	$(CXX) $< -o $@
+	$(CXX) -c $<
+	$(CXX) $@.o -o $@ -lsfml-graphics -lsfml-window -lsfml-system
