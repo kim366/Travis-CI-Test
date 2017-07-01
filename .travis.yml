@@ -5,4 +5,6 @@ compiler:
 #before-install:
 #  - sudo apt-get install libsfml-dev
 
-install: make
+script:
+  - make
+  - ./main
