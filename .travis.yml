@@ -1,0 +1,8 @@
+language: cpp
+compiler:
+  - clang
+  - gcc
+before-install:
+  - sudo apt-get install libsfml-dev
+
+install: make main
