@@ -1,4 +1,6 @@
 language: cpp
+sudo: true
+os: "linux"
 compiler:
   - clang
   - gcc
