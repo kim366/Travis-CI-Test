@@ -1,1 +1,2 @@
-main: $(CXX) main.cpp -o $<
+main: main.cpp
+	$(CXX) $^ -o $<
