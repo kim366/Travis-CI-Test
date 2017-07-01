@@ -1,2 +1,2 @@
 main: main.cpp
-	$(CXX) $^ -o $<
+	$(CXX) $< -o $@
