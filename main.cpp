@@ -20,5 +20,12 @@ int main()
         window.display();
     }
 
+    auto lambda{[] (auto x, auto y)
+    {
+        return x + y;
+    }};
+
+    lambda(5, 8);
+
     return 0;
 }
