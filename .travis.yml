@@ -10,4 +10,5 @@ install:
 
 script:
   - make
-#  - ./main
+env:
+  - CXXFLAGS=-std=C++14
