@@ -11,4 +11,4 @@ install:
 script:
   - make
 env:
-  - CXXFLAGS=-std=C++14
+  - CXXFLAGS=-std=c++14
