@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include <experimental/optional>
 
 int main()
 {
@@ -19,6 +20,8 @@ int main()
         window.draw(shape);
         window.display();
     }
+    
+    std::experimental::optional<int> optional_int;
 
     auto lambda{[] (auto x, auto y)
     {
